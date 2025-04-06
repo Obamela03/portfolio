@@ -1,12 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #333;
+    text-align: center;
 }
 
 header {
-    background-color: #333;
+    background-color: #3a3a3a;
     color: white;
     padding: 20px 0;
     margin: 0 auto;
@@ -16,9 +21,13 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
+    background: rgba(51, 51, 51, 0.6);
+    backdrop-filter: blur(10px);
     margin-top: 10px;
     position: fixed;
+    text-align: center;
 }
+
 nav ul {
     list-style-type: none;
     text-align: center;
@@ -38,6 +47,34 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+#welcome-message{
+    font-family: "inria Serif";
+    color: #000000;
+    border-radius: 30px;
+    font-size: medium;
+}
+
+/* Social Icons Styling */
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px; /* You can adjust the size */
+    margin: 0 15px;
+    transition: transform 0.3s ease; /* Adds smooth scaling on hover */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon when hovered */
+}
+
+#home{
+    background-color: #333;
+    color: #333;
+} 
+
 section {
     padding: 20px;
     margin: 10px;
@@ -50,3 +87,56 @@ footer {
     background-color: #333;
     color: white;
 }
+
+/* DESKTOP View------------------------------------ */
+@media (min-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    header {
+        font-family: "Lucida Console", "Courier New", monospace;
+        width: 60%;
+        margin: 1% 20% 0% 20%; 
+    }
+    #welcome-message{
+        background-color: #333;
+        color: white;
+        width: 66%;
+        margin: 1% 17% 0% 17%;
+        font-size:x-large;
+    }
+}
+
+/* Laptop View------------------------------------ */
+@media (max-width: 1199px) and (min-width: 992px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    header {
+        width: 70%;
+    }
+}
+
+/* Tablet View--------------------------------------- */
+@media (max-width: 991px) and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    header {
+        width: 75%;
+    }
+}
+
+/* Phone View ----------------------------------------------*/
+@media (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header {
+        width: 90%;
+    }
+    .menu {
+        font-size: 14px;
+    }
+}
+
