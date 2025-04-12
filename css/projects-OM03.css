@@ -1,35 +1,71 @@
 
-#skills{
+#projects{
     margin: 0px;
 }
 
+/*Desktop View*/
 @media (min-width: 1200px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
     }
-    #skill-section{
+    #project-section{
         width: 65%;
-        background-color: rgb(255, 255, 255);
-        margin: 1% 17% 0% 17%;
+        background-color: whitesmoke;
+        margin: 1% 17% 1% 17%;
         transition: transform 0.3s ease;
         border-radius: 10px;
-        display: inline;
+        height: 480px;
+        padding: 0;
+    }
+    #project-section:hover {
+        transform: scale(1.1); /* Slightly enlarge the icon when hovered */
+    }
+    #project-section{
+
     }
 
-    .skill {
-        text-align: center;
+    #project-heading{
+        margin: 0px;
+        height: 5%;
+    }
+
+    #project-detail{
+        display: flex;
+    }
+    
+    #project-description{
+
+    }
+
+    #project-name{
+
+    }
+
+    #tools{
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+    }
+
+    #tool-logo{
         margin-top: 20px;
         width: 40px;
         height: 40px;
         margin: 0 35px;
         transition: transform 0.3s ease; /* Adds smooth scaling on hover */
-
     }
-   
-    .skill:hover {
+    #tool-logo:hover {
         transform: scale(1.1); /* Slightly enlarge the icon when hovered */
     }
-    
+
+    #project-explained{
+        padding: 0px;
+        text-align: left;
+    }
+
+    #project-diagram{
+        
+    }
 }
 
 

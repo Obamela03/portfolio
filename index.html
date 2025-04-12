@@ -1,158 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">  <!-- Link to CSS file -->
-    <link rel="stylesheet" href="css/projects.css">  <!-- Link to CSS file -->
-    <link rel="stylesheet" href="css/skills.css">  <!-- Link to CSS file -->
-    <link rel="stylesheet" href="css/education.css">  <!-- Link to CSS file -->
-    <link rel="stylesheet" href="css/experience.css">  <!-- Link to CSS file -->
-    <link rel="stylesheet" href="css/contact.css">  <!-- Link to CSS file -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Obamela Moganedi</title>
+        <link rel="stylesheet" href="css/style.css">  <!-- Link to CSS file -->
+        <link rel="stylesheet" href="css/projects.css">  <!-- Link to CSS file -->
+        <link rel="stylesheet" href="css/skills.css">  <!-- Link to CSS file -->
+        <link rel="stylesheet" href="css/education.css">  <!-- Link to CSS file -->
+        <link rel="stylesheet" href="css/experience.css">  <!-- Link to CSS file -->
+        <link rel="stylesheet" href="css/contact.css">  <!-- Link to CSS file -->
+        <script src="js/include.js" defer></script>     
+    </head>
+    <body>
 
-</head>
-<body>
+    <div include-html="partials/header.html"></div>
+    <div include-html="partials/home.html"></div>
+    <div include-html="partials/projects.html"></div>
+    <div include-html="partials/skills.html"></div>
+    <div include-html="partials/education.html"></div>
+    <div include-html="partials/experience.html"></div>
+    <div include-html="partials/contact.html"></div>
+    <div include-html="partials/footer.html"></div>
 
-    <!------------HEADER SECTION--------------->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-
-    <!------------HOME SECTION--------------->
-    <section id="home">
-            <h2>Home</h2>
-            <section id="welcome-message">
-                <p>
-                    Hello World, I'm Obamela M Moganedi.
-                </p>
-                <p>
-                    I'm a software developer in training at North West University. I am current doing my Honours in Compurter Science.
-                </p>
-                <h6>
-                Advanced Operating Systems | Data Structures and Algorithms | Programming Languages
-                </h6>
-            </section>
-            
-            <p> 
-                <a href="https://www.linkedin.com/in/obamela-moganedi-b2a573276/" target="_blank">
-                    <img src="assets/images/linkedin.png" alt="LinkedIn" class="social-icon">
-                </a>
-                <a href="https://github.com/Obamela03" target="_blank">
-                    <img src="assets/images/github.png" alt="GitHub" class="social-icon">
-                </a>
-            </p>
-    </section>
-
-
-    <!------------PROJECTS SECTION--------------->
-    <section id="projects">
-
-        <h2>My Projects</h2>
-        <section id="project-section">
-            
-        </section>
-
-        <section id="project-section">
-            
-        </section>
-
-        <section id="project-section">
-            
-        </section>
-
-        <section id="project-section">
-            
-        </section>
-
-    </section>
-
-
-    <!------------SKILLS SECTION--------------->
-    <section id="skills">
-        <h2>Skills</h2>
-
-        <section id="skill-section">
-            <img src="assets/images/skills/java.png" alt="java" class="skill">
-            <img src="assets/images/skills/python.png" alt="java" class="skill">
-            <img src="assets/images/skills/c-.png" alt="java" class="skill">
-            <img src="assets/images/skills/c-sharp.png" alt="java" class="skill">
-            <img src="assets/images/skills/html.png" alt="java" class="skill">
-            <img src="assets/images/skills/css-3.png" alt="java" class="skill">
-            <img src="assets/images/skills/java-script.png" alt="java" class="skill">
-            <img src="assets/images/skills/sql-server.png" alt="java" class="skill">    
-        </section>
-
-    </section>
-
-    
-    <!------------EDUCATION SECTION--------------->
-    <section id="education">
-        <h2>Education</h2>
-
-        <section id="education-section">
-            <img src="assets/images/nwuLogo.png" alt="java" class="logo">
-    
-            <section id = "edu">
-                <h3>BSc Honours in Computer Science</h3>
-                <p>    |Current - 2026</p>
-                <p>    |Major in Computer Science</p>
-            
-
-            </section>
-        </section>
-
-        <section id="education-section">
-            <img src="assets/images/uwcLogo.png" alt="java" class="logo">
-
-            <section id="edu">
-                <h3>Barchelor of Computer Science</h3>
-                <p>    |        Graduated in 2025</p>
-                <p>    |        Major in Computer Science</p>
-                <p>    |        Minor in Statistics</p>
-
-            </section>
-        </section>
-
-    </section>
-
-    <section id="experience">
-        <h2>Experience</h2>
-        <p>This is my experience.</p>
-    </section>
-
-
-    <!------------CONTACT SECTION--------------->
-    <section id="contact">
-        <h2>Contact</h2>
-
-        <section id="contact-section">
-
-            <a href="mailto:obamelam@gmail.com" target="_blank">
-            <img src="assets/images/contacts/email.png" alt="java" class="skill">
-            </a>
-
-            <a href="tel:+27671365484" target="_blank">
-            <img src="assets/images/contacts/phone-call.png" alt="java" class="skill">    
-            </a>
-
-        </section>
-    </section>
-
-    <footer>
-        <p>Done and dusted</p>
-    </footer>
-
-    <script src="js/script.js"></script> <!-- Link to JS file -->
-</body>
+    </body>
 </html>
