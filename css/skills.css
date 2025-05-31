@@ -3,6 +3,7 @@
     margin: 0px;
 }
 
+/* DESKTOP View */
 @media (min-width: 1200px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
@@ -34,12 +35,34 @@
 
 
 /* Laptop View */
-@media (max-width: 1199px) and (min-width: 992px) {
+@media (max-width: 1499px) and (min-width: 992px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
     header {
         width: 60%;
+    }
+    #skill-section{
+        width: 65%;
+        background-color: rgb(255, 255, 255);
+        margin: 1% 15% 0% 15%;
+        transition: transform 0.3s ease;
+        border-radius: 10px;
+        display: inline;
+    }
+
+    .skill {
+        text-align: center;
+        margin-top: 20px;
+        width: 30px;
+        height: 30px;
+        margin: 0 20px;
+        transition: transform 0.3s ease; /* Adds smooth scaling on hover */
+
+    }
+   
+    .skill:hover {
+        transform: scale(1.1); /* Slightly enlarge the icon when hovered */
     }
 }
 

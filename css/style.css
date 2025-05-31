@@ -16,58 +16,10 @@ header {
     padding: 20px 0;
     margin: 0 auto;
     border-radius: 30px;
-    width: 80%;
-    left: 50%;
     top: 0;
-    left: 0;
     z-index: 1000;
-    background: rgba(51, 51, 51, 0.6);
-    backdrop-filter: blur(10px);
     margin-top: 10px;
     position: fixed;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin: 0 20px;
-}
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-#welcome-message{
-    font-family: "inria Serif";
-    color: #000000;
-    border-radius: 30px;
-    font-size: medium;
-}
-
-/* Social Icons Styling */
-.social-icons {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.social-icon {
-    width: 40px; /* You can adjust the size */
-    margin: 0 15px;
-    transition: transform 0.3s ease; /* Adds smooth scaling on hover */
-}
-
-.social-icon:hover {
-    transform: scale(1.1); /* Slightly enlarge the icon when hovered */
 }
 
 #home{
@@ -89,14 +41,38 @@ footer {
 }
 
 /* DESKTOP View------------------------------------ */
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
     }
     header {
+        background: rgba(95, 95, 95, 0.6);
+        backdrop-filter: blur(5px);
         font-family: "Lucida Console", "Courier New", monospace;
         width: 60%;
-        margin: 1% 20% 0% 20%; 
+        margin: 1% 20% 0% 20%;
+    }
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 20px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .social-icon:hover {
+        transform: scale(1.1); /* Slightly enlarge the icon when hovered */
     }
     #welcome-message{
         background-color: #333;
@@ -104,31 +80,164 @@ footer {
         width: 66%;
         margin: 1% 17% 0% 17%;
         font-size:x-large;
+        font-family: "inria Serif";
+        color: white;
+        border-radius: 30px;
+    }
+
+    /* Social Icons Styling */
+    .social-icons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .social-icon {
+        width: 30px; /* You can adjust the size */
+        margin: 0 15px;
+        transition: transform 0.3s ease; /* Adds smooth scaling on hover */
     }
 }
 
 /* Laptop View------------------------------------ */
-@media (max-width: 1199px) and (min-width: 992px) {
+@media (max-width: 1499px) and (min-width: 992px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
     header {
-        width: 70%;
+        background: rgba(95, 95, 95, 0.6);
+        backdrop-filter: blur(5px);
+        font-family: "Lucida Console", "Courier New", monospace;
+        width: 60%;
+        margin: 1% 20% 0% 20%;
+        height: 35px;
+        padding: 2px ;
     }
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 20px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .social-icon:hover {
+        transform: scale(1.1); /* Slightly enlarge the icon when hovered */
+    }
+    #welcome-message{
+        background-color: #333;
+        color: white;
+        width: 66%;
+        margin: 1% 17% 0% 17%;
+        font-size:large;
+        font-family: "inria Serif";
+        color: white;
+        border-radius: 30px;
+    }
+    /* Social Icons Styling */
+    .social-icons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .social-icon {
+        width: 30px; /* You can adjust the size */
+        margin: 0 15px;
+        transition: transform 0.7s ease; /* Adds smooth scaling on hover */
+    }
+
+    .social-icon:hover {
+        transform: scale(1.3); /* Slightly enlarge the icon when hovered */
+    }
+
+    #home{
+        background-color: #333;
+        color: #333;
+    } 
 }
 
 /* Tablet View--------------------------------------- */
-@media (max-width: 991px) and (min-width: 768px) {
+@media (max-width: 991px) and (min-width: 481px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
     header {
-        width: 75%;
+        background: rgba(95, 95, 95, 0.6);
+        backdrop-filter: blur(5px);
+        font-family: "Lucida Console", "Courier New", monospace;
+        width: 80%;
+        margin: 1% 10% 0% 10%;
+        height: 17px;
+        padding: 2px ;
+    }
+        nav ul {
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 20px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        text-align: center;
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .social-icon:hover {
+        transform: scale(1.1); /* Slightly enlarge the icon when hovered */
+    }
+    #welcome-message{
+        background-color: #333;
+        color: white;
+        width: 66%;
+        margin: 1% 17% 0% 17%;
+        font-size:medium;
+        font-family: "inria Serif";
+        color: white;
+        border-radius: 30px;
+    }
+    /* Social Icons Styling */
+    .social-icons {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .social-icon {
+        width: 30px; /* You can adjust the size */
+        margin: 0 15px;
+        transition: transform 0.7s ease; /* Adds smooth scaling on hover */
+    }
+
+    .social-icon:hover {
+        transform: scale(1.3); /* Slightly enlarge the icon when hovered */
+    }
+
+    #home{
+        background-color: #333;
+        color: #333;
     }
 }
 
 /* Phone View ----------------------------------------------*/
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
