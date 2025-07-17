@@ -1,13 +1,12 @@
 # 🚀 **Developer Portfolio Website**
 
-> A **responsive**, **interactive**, and **cleanly designed** personal portfolio showcasing skills, education, and contact info. Built with **HTML**, **CSS**, and **Bootstrap**.
+> A **responsive**, **interactive**, and **cleanly designed** personal portfolio showcasing skills, education, contact info, and many more. Built with **HTML**, **CSS**, and **Bootstrap**.
 
 ---
 
 ## 🌍 **Live Demo**
 
-👉 [**Click to View Portfolio**](#)  
-*(Replace `#` with your live hosted URL)*
+👉 [**Click to View Portfolio**](https://obamela03.github.io/portfolio/)  
 
 ---
 
@@ -31,4 +30,8 @@
 ---
 
 ## 📁 **Folder Structure**
+to be posted...
+
+---
+
 
