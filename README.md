@@ -1,4 +1,4 @@
-# 🚀 **Developer Portfolio Website**
+# 🚀 **My Personal Portfolio**
 
 > A **responsive**, **interactive**, and **cleanly designed** personal portfolio showcasing skills, education, contact info, and many more. Built with **HTML**, **CSS**, and **Bootstrap**.
 
