@@ -1,37 +1,34 @@
-**💼 Personal Developer Portfolio**
-A responsive and interactive portfolio website showcasing my skills, education, and contact information. Built with HTML, CSS, and Bootstrap.
+# 🚀 **Developer Portfolio Website**
 
-🌐 Live Demo
-View Portfolio @ https://obamela03.github.io/portfolio/
+> A **responsive**, **interactive**, and **cleanly designed** personal portfolio showcasing skills, education, and contact info. Built with **HTML**, **CSS**, and **Bootstrap**.
 
-📌 Features
-🎓 Education section with dynamic hover effects
+---
 
-📞 Contact section with clickable email and phone icons
+## 🌍 **Live Demo**
 
-📱 Fully responsive design (desktop, tablet, and mobile)
+👉 [**Click to View Portfolio**](#)  
+*(Replace `#` with your live hosted URL)*
 
-🎨 Clean, modern UI built with Bootstrap and custom CSS
+---
 
-🧩 Easy to customize and expand
+## 🧩 **Features**
 
+- 🎓 **Education** section with logos and hover animations
+- 📞 **Contact** section with direct email/phone links
+- 🧠 Clean layout with **Bootstrap styling**
+- 📱 **Responsive Design** for all screen sizes
+- 🧪 Easy to modify and expand
 
+---
 
-🛠️ Technologies Used
-HTML5
+## 🛠️ **Tech Stack**
 
-CSS3
+- **HTML5**
+- **CSS3**
+- **Bootstrap 5**
+- 📸 Custom icons/images for contact and education
 
-Bootstrap 5
+---
 
-Custom Icons and Images
-
-
-🧑‍💻 Author
-Obamela M.
-
-Email: obamelam@gmail.com
-
-Phone: +27 67 136 5484
-
+## 📁 **Folder Structure**
 
