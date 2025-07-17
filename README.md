@@ -1,4 +1,4 @@
-💼 Personal Developer Portfolio
+**💼 Personal Developer Portfolio**
 A responsive and interactive portfolio website showcasing my skills, education, and contact information. Built with HTML, CSS, and Bootstrap.
 
 🌐 Live Demo
