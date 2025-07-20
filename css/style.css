@@ -13,8 +13,8 @@ body{
 .custom-header {
     background: rgba(95, 95, 95, 0.6);
     backdrop-filter: blur(5px);
-    width: 80%;
-    margin: 0% 10% 0% 10%;
+    width: 60%;
+    margin: 0% 20% 0% 20%;
     padding: 2px;
     border-radius:50px;
     position: fixed;
@@ -57,7 +57,34 @@ body{
     padding-top: 45px;
 }
 
+#skills-icons i {
+  font-size: 28px;
+}
 
+/* Phone-only styles (767px and below) */
+@media only screen and (max-width: 767px) {
+  #welcome-message {
+    font-size: 15px;
+  }
+
+  #made-with-icons i,
+  #skills-icons i {
+    font-size: 18px;
+  }
+
+  .skill {
+    width: 20px;
+    height: 20px;
+    margin: 15px 15px;
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+
+}
 
 /*---------------------------Projects custom styling-----------------------------------*/
 
@@ -67,7 +94,14 @@ body{
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
+}
+
+#card1{
+    margin-top: 20px;
+    border-color: white;
+    border-radius: 30px;
+    color: white;
 }
 
 
@@ -85,7 +119,7 @@ body{
 .skill {
     width: 40px;
     height: 40px;
-    margin: 15px 35px;
+    margin: 15px 25px;
     transition: transform 0.3s ease;
 }
 
